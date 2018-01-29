@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>index.html</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+         #bod { background-color: rgb(219, 194, 228); }  
+          #top { background-color: rgb(61, 248, 248); }
+         .dv {  background-color: rgb(207, 239, 218);  }
+         #three { position: absolute; z-index: 100; top: 5px; left: 5px;}
+         #four { position: absolute; z-index: 100; top: 20px; left: 1010px;}
+        .txt { width: 200px; height: 22px; }
+        .txta { width: 260px; height: 180px; }
+         #ins { width: 350px;
+                    height: 717px;
+                    background-color: rgb(94, 255, 94); 
+                  }
+        
+    </style>
+  </head>
+  <body id="bod">
+     <div class="container-fluid">
+  
+    <div class="row m-2" id="top"> 
+
+       <div class="col">
+         <center>
+       <h2>Homepage</h2>
+       <h1>Michael Cintron</h1>
+       <address>
+        <p>
+          <a href="mailto:michaelcintr@gmail.com">michaelcintr@gmail.com</a>
+        </p>
+        <p>
+          Cleveland, OH
+        </p>
+      </address>
+        <hr /><br /><br /><br />
+         <img src="img1.jpg" width="220px" height="220px" id="three" class="rounded-circle" />
+           <img src="img2.jpg" id="four"  class="rounded" /> 
+        </div>
+      </div>
+
+ <div class="row">
+
+        <div class="col  dv m-2 p-0">
+             <img src="img3.jpg" />
+        </div>
+
+        <div class="col  dv m-2">
+           <h2>Information</h2>
+           <p> I am currently looking to change career fields.  I have a science background, studying zoology  in college<br />
+             and then working as a chemical laboratory technician.  I have since discovered the computer programming field<br />
+             and related areas.  I earned a Certified Internet Webmaster (CIW) certification in 2005.<br/>
+             I have also done self-learning in computer programming and web development:</p>
+           <table>
+            <tr>
+              <td>
+               <ul>
+                 <li><b>Programming: </b>C/C++, Java, C#</li>
+                 <li><b>Web Development: </b>JavaScript, PHP, HTML, XML, CSS</li>
+                 <li><b>Databases: </b>SQL, MySQL, Access</li>
+               </ul>
+            </td>
+           </tr>
+         </table>
+      </div>
+
+    <div class="col  dv m-2">
+      <div id="ins" class="rounded p-3" >   
+       <form>
+           <fieldset  class="border rounded p-4" >
+                <legend>Contact Me:</legend><br />
+                <div class="form-group">
+                    <label for="email">Name:</label>
+                    <input type="email" class="form-control txt" id="email">
+                </div>
+               <div class="form-group">
+                    <label for="pwd">Email:</label>
+                    <input type="text" class="form-control txt" id="pwd">
+              </div>
+             <div class="form-group">
+                    <label for="email">cc:</label>
+                    <input type="email" class="form-control txt" id="email">
+            </div>
+            <div class="form-group">
+                   <label for="pwd">Subject:</label>
+                   <input type="text" class="form-control txt" id="pwd">
+           </div>
+              <label for="txa">Message:</label>
+              <textarea id="txa" cols="30" rows="10" class="form-control txta" ></textarea><br />
+               <button type="button" class="btn" >Send</button><br />
+      </fieldset>
+    </form>
+  </div>
+ </div>
+
+</div>
+</div>
+</body>
+</html>
